@@ -3673,10 +3673,14 @@
     (uuid ffc858e0-f8a5-4d14-aa72-26af1440d23e)
   )
 
-  (text "A8->A15 mirror A0->A7 during I/O operations.\n\nSerial Port occupies I/O 00->1F\n\nUse ZIP socket for ROM"
-    (at 178.435 176.53 0)
+  (text "A8->A15 mirror A0->A7 during I/O operations.\n\nSerial Port occupies I/O 00->1F\n\nUse ZIF socket for ROM\n\nDo not populate the 20pf caps unless necessary."
+    (at 178.435 180.975 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 076a89d5-718e-4892-bc39-1e63f22b3227)
+  )
+  (text "Mounting Holes" (at 261.62 144.78 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 344ad158-627a-4fe8-8f32-ea03d1a00181)
   )
 
   (label "AD7" (at 135.89 74.93 0)
