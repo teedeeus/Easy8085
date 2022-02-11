@@ -5365,7 +5365,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 29.21 22.86 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c6651a2e-0abb-4c39-b8a0-56694b75a049)
-    (property "Reference" "J1" (id 0) (at 25.4 17.78 0))
+    (property "Reference" "J3" (id 0) (at 25.4 17.78 0))
     (property "Value" "5V Power" (id 1) (at 30.48 27.94 0))
     (property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal" (id 2) (at 30.48 23.876 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5525,7 +5525,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x25_Odd_Even") (at 34.29 115.57 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e0d0ef9a-cc29-45a5-ba6f-b69ca3458fa1)
-    (property "Reference" "J2" (id 0) (at 33.02 82.55 0))
+    (property "Reference" "J1" (id 0) (at 33.02 82.55 0))
     (property "Value" "Expansion" (id 1) (at 33.02 148.59 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical" (id 2) (at 34.29 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5769,7 +5769,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Male") (at 270.51 50.8 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f776cadd-b706-4302-a69b-6276a2ad15e2)
-    (property "Reference" "J3" (id 0) (at 265.43 39.37 0)
+    (property "Reference" "J2" (id 0) (at 265.43 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "FTDI" (id 1) (at 273.05 50.8 90)
@@ -6001,14 +6001,14 @@
     (path "/3fe8e4db-2a8c-451b-97e3-f93185444038"
       (reference "D1") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
-    (path "/c6651a2e-0abb-4c39-b8a0-56694b75a049"
-      (reference "J1") (unit 1) (value "5V Power") (footprint "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal")
-    )
     (path "/e0d0ef9a-cc29-45a5-ba6f-b69ca3458fa1"
-      (reference "J2") (unit 1) (value "Expansion") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Expansion") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical")
     )
     (path "/f776cadd-b706-4302-a69b-6276a2ad15e2"
-      (reference "J3") (unit 1) (value "FTDI") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
+      (reference "J2") (unit 1) (value "FTDI") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
+    )
+    (path "/c6651a2e-0abb-4c39-b8a0-56694b75a049"
+      (reference "J3") (unit 1) (value "5V Power") (footprint "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal")
     )
     (path "/dda4c11a-8292-40fe-b319-7fd3a9991729"
       (reference "LED1") (unit 1) (value "POWER") (footprint "LED_THT:LED_D5.0mm")
