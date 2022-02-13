@@ -1,66 +1,23 @@
-"Source:","/home/tod/Kicad/Easy8085/Easy8085.kicad_sch"
-"Date:","Sun 06 Feb 2022 12:40:59 AM PST"
-"Tool:","Eeschema 6.0.1"
-"Generator:","/app/share/kicad/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","33"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","OC_FARNELL","OC_NEWARK"
-"","","C1","1uf","Device:C_Polarized_US","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~","",""
-"","","C2","100uf","Device:C_Polarized_US","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~","",""
-"","","C3",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","C4",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","C5",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","C6",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","C7",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","C8",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","C9",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","C10",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"","","D1","POWER","Device:LED","LED_THT:LED_D5.0mm","~","",""
-"","","IC1","8085","Retro:8085","Package_DIP:DIP-40_W15.24mm","","unknown","unknown"
-"","","J1","5V Power","Connector:Barrel_Jack_Switch","Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal","~","",""
-"","","J2","Expansion","Connector_Generic:Conn_02x25_Counter_Clockwise","","~","",""
-"","","J3","FTDI","Connector:Conn_01x06_Male","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal","~","",""
-"","","R1","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R2","100K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R3","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R4","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R5","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R6","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R7","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R8","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R9","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","R10","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"","","SW1","RESET","Switch:SW_MEC_5E","Button_Switch_THT:SW_PUSH_6mm_H5mm","http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371","",""
-"","","U1","74LS139","74xx:74LS139","Package_DIP:DIP-16_W7.62mm","http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf","",""
-"","","U2","74LS373","Retro:74LS373","Package_DIP:DIP-20_W7.62mm","http://www.ti.com/lit/gpn/sn74LS373","",""
-"","","U3","74LS90","74xx:74LS90","Package_DIP:DIP-12_W7.62mm","http://www.ti.com/lit/gpn/sn74LS90","",""
-"","","U4","X28C64","Retro:X28C64","Package_DIP:DIP-28_W15.24mm","","",""
-"","","U5","8251A","Retro:8251A","Package_DIP:DIP-28_W15.24mm","","",""
-"","","U6","CY62256","Memory_RAM:CY62256-70PC","Package_DIP:DIP-28_W15.24mm","https://ecee.colorado.edu/~mcclurel/Cypress_SRAM_CY62256.pdf","",""
-"","","Y1","6.144M","Device:Crystal","Crystal:Crystal_HC49-U_Horizontal","~","",""
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","OC_FARNELL","OC_NEWARK"
-"1","1","C1","1uf","Device:C_Polarized_US","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~","",""
-"2","1","C2","100uf","Device:C_Polarized_US","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~","",""
-"3","8","C3, C4, C5, C6, C7, C8, C9, C10",".1uf","Device:C","Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm","~","",""
-"4","1","D1","POWER","Device:LED","LED_THT:LED_D5.0mm","~","",""
-"5","1","IC1","8085","Retro:8085","Package_DIP:DIP-40_W15.24mm","","unknown","unknown"
-"6","1","J1","5V Power","Connector:Barrel_Jack_Switch","Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal","~","",""
-"7","1","J2","Expansion","Connector_Generic:Conn_02x25_Counter_Clockwise","","~","",""
-"8","1","J3","FTDI","Connector:Conn_01x06_Male","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal","~","",""
-"9","9","R1, R3, R4, R5, R6, R7, R8, R9, R10","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"10","1","R2","100K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal","~","",""
-"11","1","SW1","RESET","Switch:SW_MEC_5E","Button_Switch_THT:SW_PUSH_6mm_H5mm","http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371","",""
-"12","1","U1","74LS139","74xx:74LS139","Package_DIP:DIP-16_W7.62mm","http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf","",""
-"13","1","U2","74LS373","Retro:74LS373","Package_DIP:DIP-20_W7.62mm","http://www.ti.com/lit/gpn/sn74LS373","",""
-"14","1","U3","74LS90","74xx:74LS90","Package_DIP:DIP-12_W7.62mm","http://www.ti.com/lit/gpn/sn74LS90","",""
-"15","1","U4","X28C64","Retro:X28C64","Package_DIP:DIP-28_W15.24mm","","",""
-"16","1","U5","8251A","Retro:8251A","Package_DIP:DIP-28_W15.24mm","","",""
-"17","1","U6","CY62256","Memory_RAM:CY62256-70PC","Package_DIP:DIP-28_W15.24mm","https://ecee.colorado.edu/~mcclurel/Cypress_SRAM_CY62256.pdf","",""
-"18","1","Y1","6.144M","Device:Crystal","Crystal:Crystal_HC49-U_Horizontal","~","",""
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C6,C9,C12,C5,C7,C10,C4,C11";"C_Disc_D3.4mm_W2.1mm_P2.50mm";8;".1uf";;;
+2;"C1,C2";"C_Disc_D3.4mm_W2.1mm_P2.50mm";2;"20pf-DNP";;;
+3;"J3";"PinSocket_1x06_P2.54mm_Horizontal";1;"FTDI";;;
+4;"U3";"DIP-14_W7.62mm_Socket";1;"74LS90";;;
+5;"J2";"BarrelJack_GCT_DCJ200-10-A_Horizontal";1;"5V Power";;;
+6;"R4,R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";2;"4.7K";;;
+7;"SW1";"SW_PUSH_6mm_H5mm";1;"RESET";;;
+8;"R3";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"490";;;
+9;"RN1";"R_Array_SIP10";1;"10K";;;
+10;"LED1";"LED_D5.0mm";1;"POWER";;;
+11;"J1";"PinHeader_2x25_P2.54mm_Vertical";1;"Expansion";;;
+12;"U1";"DIP-40_W15.24mm_Socket";1;"8085";;;
+13;"U7";"DIP_Socket-28_W11.9_W12.7_W15.24_W17.78_W18.5_3M_228-1277-00-0602J";1;"X28256";;;
+14;"U4";"DIP-16_W7.62mm_Socket";1;"74LS139";;;
+15;"C8";"CP_Radial_D7.5mm_P2.50mm";1;"100uf";;;
+16;"R1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"100K";;;
+17;"U5";"DIP-20_W7.62mm_Socket";1;"74LS573";;;
+18;"C3";"CP_Radial_D7.5mm_P2.50mm";1;"1uf";;;
+19;"U6";"DIP-28_W15.24mm_Socket";1;"CY62256";;;
+20;"D1";"D_DO-35_SOD27_P7.62mm_Horizontal";1;"1N4148";;;
+21;"Y1";"Crystal_HC49-4H_Vertical";1;"6.144M";;;
+22;"U2";"DIP-28_W15.24mm_Socket";1;"8251A";;;
